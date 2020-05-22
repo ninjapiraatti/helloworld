@@ -6,7 +6,7 @@
 /*   By: tlouekar <tlouekar@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/22 08:40:56 by tlouekar          #+#    #+#             */
-/*   Updated: 2020/05/22 09:12:59 by tlouekar         ###   ########.fr       */
+/*   Updated: 2020/05/22 10:43:41 by tlouekar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int     main(void)
    scanf("%s", str2);
 
    printf("Failed command: %s\n", str1);
-   printf("Better command: %s", str2);
-   
+   printf("Better command: %s\n", str2);
+   rng(-100, 100);
    return(0);
 }
