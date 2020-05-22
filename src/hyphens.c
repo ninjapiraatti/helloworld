@@ -14,8 +14,7 @@ int     hyphens(int num)
     {
         putchar(cons[rng(0,13)]);
         putchar(vowl[rng(0,5)]);
-        putchar(' ');
-        delay(5);
+        putchar('\n');
         i++;
     }
     return (0);
