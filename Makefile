@@ -5,6 +5,7 @@ SRCS = src/main.c \
 	   src/rng.c \
 	   src/hyphens.c \
 	   src/up_downer.c \
+	   src/mixer.c \
 	   src/songofmypeople.c \
 	   src/inithello.c \
 	   src/talk.c \
@@ -13,6 +14,7 @@ OBJS = main.o \
 	   rng.o \
 	   hyphens.o \
 	   up_downer.o \
+	   mixer.o \
 	   songofmypeople.o \
 	   inithello.o \
 	   talk.o \

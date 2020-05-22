@@ -17,6 +17,7 @@ typedef	struct	s_hello
 int					rng(int min, int max);
 int     			hyphens(int num);
 char                *up_downer(char *str);
+char                *mixer(char *str);
 int                 song(int num);
 int                 inithello(t_hello *hello);
 int					talk(t_hello *hello);
