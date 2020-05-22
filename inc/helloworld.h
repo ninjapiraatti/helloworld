@@ -19,5 +19,6 @@ int     			hyphens(int num);
 char                *up_downer(char *str);
 int                 song(int num);
 int                 inithello(t_hello *hello);
+int					talk(t_hello *hello);
 		
 #endif
