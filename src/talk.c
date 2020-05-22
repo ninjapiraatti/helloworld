@@ -17,12 +17,15 @@ int     guess(t_hello *hello)
         scanf("%s", str1);
         if (strstr(str1, "Yes.") != NULL)
         {
-            printf("Great! We will add it to the Hello World.\n");
+            printf("\nGreat! We will add it to the Hello World.\n");
             nthletter++;
         }
+        else if (strstr(str1, "yes.") != NULL || strstr(str1, "yes") != NULL || strstr(str1, "Yes") != NULL ||
+        strstr(str1, "Y") != NULL || strstr(str1, "y") != NULL || strstr(str1, "Yes!") != NULL)
+            printf("\nYou have to be more specific.\n");
         else
         {
-            printf("Ok so it isn't. Let's try next one.\n");
+            printf("\nOk so it isn't. Let's try next one.\n");
             usleep(1000);
         }
     }
@@ -36,8 +39,9 @@ int     talk(t_hello *hello)
 
     printf("\033[1;35m");
     printf("\n\nHenlo. I'm a program that prints two words on the screen. I'm really excited to meet you! Let's start and get this done!\n\nPlease give me instructions: ");
-    scanf("%s", str1);
-    if (strstr("Print Hello World.", str1) != NULL)
+    scanf("%[^\n]%*c", str1);
+    //printf("\n%s\n", str1);
+    if (strstr(str1, "Print Hello World.") != NULL)
     {
         printf("\n\nOk, very cool! Now let's get the letters we need.\n");
         guess(hello);
