@@ -7,6 +7,7 @@ SRCS = src/main.c \
 	   src/up_downer.c \
 	   src/songofmypeople.c \
 	   src/inithello.c \
+	   src/talk.c \
 
 OBJS = main.o \
 	   rng.o \
@@ -14,6 +15,7 @@ OBJS = main.o \
 	   up_downer.o \
 	   songofmypeople.o \
 	   inithello.o \
+	   talk.o \
 
 INCS = -I ./inc
 
