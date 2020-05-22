@@ -2,6 +2,8 @@
 ** This function will make you sound stupid
 */
 
+#include "../inc/helloworld.h"
+
 int	ft_islower(int c)
 {
 	if (c >= 97 && c <= 122)

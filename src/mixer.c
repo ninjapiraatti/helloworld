@@ -2,6 +2,8 @@
 ** I'm here to mix it up a bit
 */
 
+#include "../inc/helloworld.h"
+
 char    *mixer(char *str)
 {
     int i;

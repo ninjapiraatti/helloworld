@@ -9,6 +9,7 @@ SRCS = src/main.c \
 	   src/songofmypeople.c \
 	   src/inithello.c \
 	   src/talk.c \
+	   src/mood_swings.c \
 
 OBJS = main.o \
 	   rng.o \
@@ -18,6 +19,7 @@ OBJS = main.o \
 	   songofmypeople.o \
 	   inithello.o \
 	   talk.o \
+	   mood_swings.o \
 
 INCS = -I ./inc
 
