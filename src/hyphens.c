@@ -12,9 +12,10 @@ int     hyphens(int num)
     i = 0;
     while (i < num)
     {
+        usleep(100);
         putchar(cons[rng(0,13)]);
         putchar(vowl[rng(0,5)]);
-        putchar('\n');
+        putchar(' ');
         i++;
     }
     return (0);

@@ -6,7 +6,7 @@
 /*   By: tlouekar <tlouekar@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/11 13:37:41 by tlouekar          #+#    #+#             */
-/*   Updated: 2020/05/22 13:01:56 by tlouekar         ###   ########.fr       */
+/*   Updated: 2020/05/22 13:08:53 by tlouekar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define HELLOWORLD_H
 
 # include <stdlib.h>
+# include <unistd.h>
 # include <stdio.h>
 # include <time.h>
 
