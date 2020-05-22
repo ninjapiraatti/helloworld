@@ -1,26 +1,23 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: tlouekar <tlouekar@student.hive.fi>        +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/01/01 14:57:04 by tlouekar          #+#    #+#              #
-#    Updated: 2020/05/22 09:15:51 by tlouekar         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
 
 NAME = bin/helloworld
 
 SRCS = src/main.c \
 	   src/rng.c \
+	   src/hyphens.c \
 	   src/up_downer.c \
 	   src/mixer.c \
+	   src/songofmypeople.c \
+	   src/inithello.c \
+	   src/talk.c \
 
 OBJS = main.o \
 	   rng.o \
+	   hyphens.o \
 	   up_downer.o \
 	   mixer.o \
+	   songofmypeople.o \
+	   inithello.o \
+	   talk.o \
 
 INCS = -I ./inc
 
