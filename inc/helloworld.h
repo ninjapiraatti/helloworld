@@ -20,5 +20,6 @@
 static char			flags[20] = "0123456789#-+hlL.* ";
 
 int					rng(int min, int max);
+char                *up_downer(char *str);
 		
 #endif

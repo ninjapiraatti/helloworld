@@ -14,9 +14,11 @@ NAME = bin/helloworld
 
 SRCS = src/main.c \
 	   src/rng.c \
+	   src/up_downer.c \
 
 OBJS = main.o \
 	   rng.o \
+	   up_downer.o \
 
 INCS = -I ./inc
 
