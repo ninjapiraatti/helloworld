@@ -1,7 +1,5 @@
 
 #include "../inc/helloworld.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 int     hyphens(int num)
 {
@@ -18,5 +16,6 @@ int     hyphens(int num)
         putchar(' ');
         i++;
     }
+    putchar('\n');
     return (0);
 }

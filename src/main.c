@@ -13,5 +13,6 @@ int     main(void)
     scanf("%s", str1);
     num =  atoi(str1);
     hyphens(num);
+    song(100);
     return(0);
 }
