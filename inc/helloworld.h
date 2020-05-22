@@ -6,6 +6,7 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <time.h>
+# include <string.h>
 
 static char			flags[20] = "0123456789#-+hlL.* ";
 
