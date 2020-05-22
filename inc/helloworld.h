@@ -21,5 +21,6 @@ char                *mixer(char *str);
 int                 song(int num);
 int                 inithello(t_hello *hello);
 int					talk(t_hello *hello);
+void    			mood_swings(char *str);
 		
 #endif
