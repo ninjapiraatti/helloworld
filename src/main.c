@@ -13,7 +13,7 @@ int     main(void)
         return (0);
     inithello(hello);
     printf("\033[1;35m");
-    printf("Enter number: ");
+    printf("\n\nHenlo. I'm a program that prints two words on the screen. I'm really excited to meet you! Let's start and get this done!\n\nPlease give me instructions: ");
     scanf("%s", str1);
     printf("\033[0m"); 
     num =  atoi(str1);

@@ -11,6 +11,7 @@ int     song(int num)
     char    rndvowl;
 
     i = 0;
+    printf("\033[0;36m");
     printf("\n\nI will now sing you the song of my people.\n\n");
     while (i < num)
     {
@@ -29,5 +30,6 @@ int     song(int num)
         i++;
     }
     putchar('\n');
+    printf("\033[0m"); 
     return (0);
 }
